@@ -39,7 +39,7 @@ def climatogram(df: pd.DataFrame) -> pd.DataFrame:
     ax2 = ax1.twinx()
     ax2.plot(clim.index, clim["t_mean_c"], color=RED, marker="o", lw=2, label="Temperature")
     ax2.set_ylabel("Mean temperature (°C)", color=RED)
-    ax1.set_title("Climatogram 2015–2024 (synthetic station VIE_SYNTH_01)")
+    ax1.set_title("Climatogram 2015–2024 (Station 01)")
     for ax in (ax1, ax2):
         ax.spines["top"].set_visible(False)
     fig.tight_layout()
