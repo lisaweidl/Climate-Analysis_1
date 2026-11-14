@@ -1,4 +1,4 @@
-# Precipitation & Temperature Analysis
+# Precipitation & Temperature Analysis/ Random weather station in Vienna (GeoSphere)
 
 ## Questions
 
@@ -46,13 +46,6 @@
 A few values are missing; temperature gaps (≤ 3 days) are
 interpolated, missing precipitation is set to 0.
 
-## Usage
-
-```bash
-pip install -r requirements.txt
-python scripts/generate_data.py   # optional – data is already included
-python scripts/analysis.py
-```
 
 ## License
 
