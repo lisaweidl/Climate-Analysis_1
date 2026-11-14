@@ -26,7 +26,6 @@
 │   └── processed/                     # monthly climatology, annual summary
 ├── figures/                           # generated plots
 ├── scripts/
-│   ├── generate_data.py               # creates the synthetic dataset
 │   └── analysis.py                    # cleaning, statistics, figures
 ├── requirements.txt
 └── README.md
